@@ -1,0 +1,45 @@
+Script started on Sun 20 Jun 2021 11:53:05 PM PDT
+]0;dk2comp341114@cs2:~[?1034h[dk2comp341114@cs2 ~]$ gccexit[2Ppskill 42824ps[Kbgsleep 120kill 42810ps[Kbgfgsleep 60 & [K[K[K[K[K[K[K[K[K[K[Kgcc text[Ks[Kt [KOs[K[K[K[KST[K[KstOS.c
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ ./a/out. [K[K[K[K[K[K[Ka.out name.txt
+
+
+The values are Child ID = 44802, Parent ID=44801
+     1	This is line one in my text file.
+     2	This is line two in my text file.
+     3	This is line three in my text file.
+     4	Linux provides many commands for manipulating text!
+
+Child Completes 
+In the Parent Process
+Child Id = 44801, Parent ID = 44774
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ sel[K[Kleep 120&[K & 
+[1] 44809
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ sleep 1
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ bg 1[K[K[K[Kps
+  PID TTY          TIME CMD
+44774 pts/16   00:00:00 bash
+44809 pts/16   00:00:00 sleep
+44815 pts/16   00:00:00 ps
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ bg 1
+bash: bg: job 1 already in background
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ fg 1
+sleep 120
+^X  ^Z
+[1]+  Stopped                 sleep 120
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ bg 1
+[1]+ sleep 120 &
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ ps
+  PID TTY          TIME CMD
+44774 pts/16   00:00:00 bash
+44809 pts/16   00:00:00 sleep
+44820 pts/16   00:00:00 ps
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ kill 44809
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ ps
+  PID TTY          TIME CMD
+44774 pts/16   00:00:00 bash
+44821 pts/16   00:00:00 ps
+[1]+  Terminated              sleep 120
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ exit
+exit
+
+Script done on Sun 20 Jun 2021 11:56:03 PM PDT

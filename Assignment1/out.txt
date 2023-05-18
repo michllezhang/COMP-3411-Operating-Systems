@@ -1,0 +1,14 @@
+Script started on Tue 18 May 2021 09:11:10 PM PDT
+]0;dk2comp341114@cs2:~[?1034h[dk2comp341114@cs2 ~]$ exit./smallprogram.out exit[K./smallprogram.out exit[Kvagrant ssh[1Pup[6Pexitpasswd[2Pexitvagrant upssh[7Pexit./smallprogram.out 
+What is your name? mengyangzhang
+How many times shall I print it? 15
+mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang mengyangzhang 
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ ./smallprogram.out exit[K./smallprogram.out exit[K./smallprogram.out exit[Kvagrant ssh[1Pup[6Pexitpasswd[2Pexitvagrant upssh[7Pexit./smallprogram.out exit[K./smallprogram.out exit[K./smallprogram.out [Kjava smallprogram.[K
+Your first initial? M
+Your last initial? Z
+Repeating 20 times.
+M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! M.Z. likes Linux! 
+]0;dk2comp341114@cs2:~[dk2comp341114@cs2 ~]$ exit
+exit
+
+Script done on Tue 18 May 2021 09:12:10 PM PDT
